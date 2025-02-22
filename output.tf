@@ -37,3 +37,4 @@ output "ssm_subnet_database_1b_id" {
 
 output "ssm_subnet_database_1c_id" {
     value = aws_ssm_parameter.database_1c.id
+}
